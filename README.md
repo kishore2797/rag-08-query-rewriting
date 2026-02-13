@@ -65,6 +65,18 @@ npm run dev
 
 Open http://localhost:5173 — run queries with different rewriting strategies and compare.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+pip install -r requirements.txt
+python example.py
+```
+
+It expands one query into multiple queries, retrieves for each, and merges results.
+
 ## 📖 What You'll Learn
 
 1. Why raw user queries often perform poorly in vector search
